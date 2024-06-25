@@ -1,0 +1,106 @@
+.main-head{
+    background-color: whitesmoke;
+}
+
+.home {
+    margin-top: 40px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+   
+}
+  
+.home::before {
+    margin-left: auto;
+}
+  
+.home::after, .home::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blueviolet;
+    display: block;
+    transition: 0.5s;
+}
+  
+.home:hover::after, .home:hover::before {
+    width: 100%;
+}
+
+.products{
+    margin-top: 40px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.products::before {
+    margin-left: auto;
+}
+  
+.products::after, .products::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blueviolet;
+    display: block;
+    transition: 0.5s;
+}
+  
+.products:hover::after, .products:hover::before {
+    width: 100%;
+}
+
+.contact{
+    margin-top: 40px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact::before {
+    margin-left: auto;
+}
+  
+.contact::after, .contact::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blueviolet;
+    display: block;
+    transition: 0.5s;
+}
+  
+.contact:hover::after, .contact:hover::before {
+    width: 100%;
+}
+
+
+.login{
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 270px;
+}
+
+.reg{
+    margin-top: 40px;
+}
+
+.logout{
+    margin-top: 40px;
+}
+
+.cart{
+    margin-top: 22px;
+    cursor: pointer;
+}
+

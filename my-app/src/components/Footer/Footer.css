@@ -1,0 +1,15 @@
+.footer{
+    margin-top: 90px;
+    position: relative;
+    background-color: #002244;
+    color: white;
+    
+}
+
+.part{
+    margin-top: 20px;
+}
+
+.details{
+    cursor: pointer;
+}

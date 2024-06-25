@@ -1,0 +1,29 @@
+.left{
+    background-color: #53917E;
+    height: 600px;
+    margin-right: 300px;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 5px;
+    color: black;
+    position: relative;
+}
+
+.category{
+    margin-top: 50px;
+}
+.men{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color:cadetblue;
+}
+
+.women{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.kid{
+    margin-top: 30px;
+    cursor: pointer;
+}
